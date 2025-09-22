@@ -1,0 +1,59 @@
+/* Main Section */
+.main {
+    background-color: #f7f7f7;  /* Add a background color to the section */
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-start; /* Aligns the content to the top */
+    padding-top: 45vh; /* Adjusted space from the top */
+}
+
+/* Logo Image Styling */
+.logo-img {
+    max-width: 300px; /* Adjust the logo size */
+    margin-bottom: 20px; /* Add space between the logo and the text */
+}
+
+/* Text Styling */
+.logo, .logo.cursive {
+    font-size: 50px !important; /* Ensure large font size */
+    color: #ac5937; /* Optional: Add color to the text */
+}
+
+.logo.cursive {
+    font-family: 'Grand Hotel', sans-serif;
+}
+
+/* Cover styling */
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styling */
+.footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Instagram logo color */
+.instagram-icon {
+    color: #ac5937;  /* Set the color of the Instagram logo */
+}
+
+/* Remove hover background effect */
+.navbar-nav > li > a {
+    background: none !important;  /* Remove background on hover */
+}
+
+/* Optional: Remove hover color effect */
+.navbar-nav > li > a:hover {
+    color: #ac5937 !important;  /* Ensure the logo color stays the same when hovered */
+    background: none !important;  /* Make sure no background appears on hover */
+}
