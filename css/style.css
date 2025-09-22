@@ -17,7 +17,7 @@
 /* Text Styling */
 .logo, .logo.cursive {
     font-size: 50px !important; /* Ensure large font size */
-    color: #000000; /* Optional: Add color to the text */
+    color: #ffffff; /* Optional: Add color to the text */
 }
 
 .logo.cursive {
